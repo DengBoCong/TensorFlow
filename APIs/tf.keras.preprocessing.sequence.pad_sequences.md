@@ -22,7 +22,7 @@ keras.preprocessing.sequence.pad_sequences(
   + truncating：‘pre’或‘post’，确定当需要截断序列时，从起始还是结尾截断
   + value：浮点数，此值将在填充时代替默认的填充值0
 + 返回值
-  + 返回形如(nb_samples,nb_timesteps)的2D张量
+  + 返回Numpy array形状为(len(sequences), maxlen)
 
 
 ## 示例
